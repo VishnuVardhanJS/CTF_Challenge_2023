@@ -1,0 +1,16 @@
+.footer-container {
+    width: 100vw;
+    height: 6rem;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-text{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}

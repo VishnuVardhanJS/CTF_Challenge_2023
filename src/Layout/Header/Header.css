@@ -1,0 +1,15 @@
+.header-container{
+    width: 100vw;
+    height: 4rem;
+    color: white;
+    background-color: black;
+    padding:1rem 2rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.header-text{
+    font-size: 1.5rem;
+
+}

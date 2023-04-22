@@ -1,0 +1,13 @@
+.display-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.display-card-title{
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(112, 15, 136);
+    color: aliceblue;
+}

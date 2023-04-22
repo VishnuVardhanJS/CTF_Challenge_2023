@@ -1,0 +1,35 @@
+.challenge-card-container{
+    width: 350px;
+    height: 250px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 1rem;
+    /* cursor: pointer; */
+    border: 0.1px solid rgb(248, 239, 239);
+    transition:0.2s;
+
+}
+.challenge-card-container:hover{
+  transform: scale(1.0555);
+
+}
+
+.card-container-btn{
+    padding: 0.3rem 1rem;
+    background-color: rgb(214, 30, 30);
+    color: aliceblue;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.card-text{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}

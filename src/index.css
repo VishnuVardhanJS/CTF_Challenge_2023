@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+}
+*::selection{
+  color: aliceblue;
+  background-color: rgb(255, 0, 0);
+}
+body::-webkit-scrollbar{
+     width: 1rem;
+     color: aliceblue;
+     background-color: rgba(0, 0, 0, 0.582);
+}
+
+body::-webkit-scrollbar-thumb{
+  color: rgb(70, 79, 87);
+  background-color: rgba(0, 0, 0, 0.582);
+}
+
+body::-webkit-scrollbar-track{
+  background-color: rgba(71, 70, 70, 0.582);
+}
+
+a{
+  text-decoration: none;
+}
