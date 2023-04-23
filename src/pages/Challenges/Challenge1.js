@@ -3,10 +3,11 @@ import ChallengeCard from '../../components/ChallengeCard/ChallengeCard'
 import Next from '../../assets/Images/arrow_right.png'
 import { Link } from 'react-router-dom'
 import './Challenge.css'
+import Swal from 'sweetalert2'
 
 
 function Challenge1() {
-  console.log(process.env.REACT_APP_TEST_KEY)
+
   const ChallengeInfo = {
     "challengeId": "Challenge1",
     "title": "Steganography #1",
@@ -14,6 +15,7 @@ function Challenge1() {
     "desc": "This is an simple Steganography Challenge",
     "diff": "Easy"
   }
+
   return (
     <div className="main-container">
       <ChallengeCard title={ChallengeInfo.title} url={ChallengeInfo.url} desc={ChallengeInfo.desc} diff={ChallengeInfo.diff} challengeId={ChallengeInfo.challengeId} />

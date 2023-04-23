@@ -16,10 +16,11 @@
     background-color: black;
     color: aliceblue;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    padding: 10rem;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 15rem;
     border-radius: 1rem;
     /* cursor: pointer; */
     border: 0.1px solid rgb(248, 239, 239);
@@ -33,4 +34,10 @@
     gap: 1rem;
     font-size: larger;
     font-weight: bold;
+}
+
+
+.outoff{
+    font-size: 72px;
+    justify-content: center;
 }

@@ -18,6 +18,12 @@ function ChallengeCard({ title, url, desc, diff, challengeId }) {
     function closeModal() {
         setIsOpen(false);
         localStorage.setItem(challengeId, input)
+
+        new Swal({
+            title: title,
+            text: "Flag Successfully Submitted",
+            icon: "success",
+          });
     }
 
     return (

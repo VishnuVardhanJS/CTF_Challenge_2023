@@ -29,6 +29,10 @@ function Main() {
             title:"Challenge 6",
             url:"Challenge6"
         },
+        {
+            title:"Evaluate Scores",
+            url:"Evaluate"
+        },
     
     ]
 

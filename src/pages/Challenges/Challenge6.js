@@ -21,6 +21,11 @@ function Challenge6() {
         </Link>
       </div>
       <ChallengeCard title={ChallengeInfo.title} url={ChallengeInfo.url} desc={ChallengeInfo.desc} hint={ChallengeInfo.hint} challengeId={ChallengeInfo.challengeId}/>
+      <div className='next-challenge'>
+        <Link to={"/Evaluate"}>
+          <img src={Next}></img>
+        </Link>
+      </div>
     </div>
   )
 }
