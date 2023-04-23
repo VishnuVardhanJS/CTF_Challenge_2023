@@ -4,7 +4,7 @@ import "./Card.css"
 
 function Card({title,url}) {
     return ( 
-        <div className="challenge-card-container">
+        <div className="home-card-container">
           <p className="card-text"> {title}</p>
           <Link to={`/${url}`} 
           className="card-container-btn"

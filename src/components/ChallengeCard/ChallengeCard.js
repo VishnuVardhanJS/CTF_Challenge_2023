@@ -32,7 +32,7 @@ function ChallengeCard({ title, url, desc, diff, challengeId }) {
                 </div>
             </div>
 
-            <div className='card-container'>
+            <div className='challenge-card-container'>
                 <p className="card-text"> {title}</p>
                 <p className="card-text">Description : {desc}</p>
                 <p className="card-text">Difficulty : {diff}</p>

@@ -1,4 +1,4 @@
-.card-container{
+.challenge-card-container{
     width: 80%;
     height: 80vh;
     background-color: black;
@@ -15,7 +15,7 @@
 
 }
 
-.card-container:hover{
+.challenge-card-container:hover{
     transform: none;
   }
 

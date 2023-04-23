@@ -8,6 +8,8 @@ import Challenge3 from './pages/Challenges/Challenge3'
 import Challenge4 from './pages/Challenges/Challenge4'
 import Challenge5 from './pages/Challenges/Challenge5'
 import Challenge6 from './pages/Challenges/Challenge6'
+import Clear from './pages/Misc/Clear';
+import Evaluate from './pages/Misc/Evaluate';
 
 
 
@@ -22,6 +24,8 @@ function App() {
         <Route path='/Challenge4' element={<Challenge4 />} />
         <Route path='/Challenge5' element={<Challenge5 />} />
         <Route path='/Challenge6' element={<Challenge6 />} />
+        <Route path='/clear' element={<Clear />} />
+        <Route path='/Evaluate' element={<Evaluate />} />
       </Routes>
     </Layout>
 

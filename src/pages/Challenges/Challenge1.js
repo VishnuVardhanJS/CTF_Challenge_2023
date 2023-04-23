@@ -5,12 +5,8 @@ import { Link } from 'react-router-dom'
 import './Challenge.css'
 
 
-function Challenge1({ props }) {
-
-  function nextChallenge() {
-
-  }
-
+function Challenge1() {
+  console.log(process.env.REACT_APP_TEST_KEY)
   const ChallengeInfo = {
     "challengeId": "Challenge1",
     "title": "Steganography #1",
