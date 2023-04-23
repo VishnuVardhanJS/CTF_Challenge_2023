@@ -9,9 +9,10 @@ import Back from '../../assets/Images/arrow_left.png'
 function Challenge5() {
   const ChallengeInfo = {
     "challengeId": "Challenge5",
-    "title" : "TESTING",
-    "url" : "www.testing.com",
-    "desc" : "This is an test Description about the Challenge"
+    "title" : "Cryptography",
+    "url" : "https://pastebin.com/8zi5fYLQ",
+    "desc" : "If you know you Know!",
+    "diff" : "Easy/Medium"
   }
   return (
     <div className="main-container">
@@ -20,7 +21,7 @@ function Challenge5() {
           <img src={Back}></img>
         </Link>
       </div>
-      <ChallengeCard title={ChallengeInfo.title} url={ChallengeInfo.url}  desc={ChallengeInfo.desc} hint={ChallengeInfo.hint} challengeId={ChallengeInfo.challengeId}/>
+      <ChallengeCard title={ChallengeInfo.title} url={ChallengeInfo.url}  desc={ChallengeInfo.desc} diff={ChallengeInfo.diff} challengeId={ChallengeInfo.challengeId}/>
       <div className='next-challenge'>
         <Link to={"/Challenge6"}>
           <img src={Next}></img>

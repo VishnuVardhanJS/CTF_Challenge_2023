@@ -34,7 +34,7 @@ function ChallengeCard({ title, url, desc, diff, challengeId }) {
 
             <div className='card-container'>
                 <p className="card-text"> {title}</p>
-                <p className="card-text"> {desc}</p>
+                <p className="card-text">Description : {desc}</p>
                 <p className="card-text">Difficulty : {diff}</p>
                 <div className='btns-container'>
                     <a href={url} target="_blank" rel="noopener noreferrer" className="card-container-btn">Open Challenge</a >

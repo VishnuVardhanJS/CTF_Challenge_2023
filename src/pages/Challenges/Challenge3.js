@@ -9,7 +9,7 @@ import Back from '../../assets/Images/arrow_left.png'
 function Challenge3() {
   const ChallengeInfo = {
     "challengeId": "Challenge3",
-    "title": "Strings #1",
+    "title": "Strings",
     "url": "https://drive.google.com/file/d/1ckP59WL-MT-Nn2uQ6FnmaAfTREMERq1c/view?usp=share_link",
     "desc": "No Description because it too easy",
     "diff": "Very Easy"

@@ -1,4 +1,4 @@
-.next-challenge{
+.next-challenge {
     position: absolute;
     transform: scale(0.1);
     display: flex;
@@ -9,7 +9,7 @@
 }
 
 
-.prev-challenge{
+.prev-challenge {
     position: absolute;
     transform: scale(0.1);
     display: flex;
@@ -17,16 +17,17 @@
     top: 23vh;
     left: -12rem;
     cursor: pointer;
-    
+
 }
 
-/* .main-container{
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex : auto 3
-}
 
-.big-card{
-position: relative;
-} */
+@media screen and (max-width: 900px) {
+    .next-challenge {
+       position: absolute;
+       margin-right: -35px;
+    }
+    .prev-challenge {
+        position: absolute;
+        margin-left: -25px;
+     }
+}
