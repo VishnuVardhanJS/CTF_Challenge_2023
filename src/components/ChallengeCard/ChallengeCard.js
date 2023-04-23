@@ -6,7 +6,7 @@ import Swal from 'sweetalert2'
 
 
 
-function ChallengeCard({ title, url, desc, hint, challengeId }) {
+function ChallengeCard({ title, url, desc, diff, challengeId }) {
 
     const [modalIsOpen, setIsOpen] = useState(false);
     const [input, setInput] = useState("");
@@ -35,7 +35,7 @@ function ChallengeCard({ title, url, desc, hint, challengeId }) {
             <div className='card-container'>
                 <p className="card-text"> {title}</p>
                 <p className="card-text"> {desc}</p>
-                <p className="card-text">Hint : {hint}</p>
+                <p className="card-text">Difficulty : {diff}</p>
                 <div className='btns-container'>
                     <a href={url} target="_blank" rel="noopener noreferrer" className="card-container-btn">Open Challenge</a >
                     <a onClick={() => { openModal() }} className="card-container-btn">Submit Flag</a >

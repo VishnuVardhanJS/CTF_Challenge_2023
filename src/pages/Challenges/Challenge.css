@@ -1,0 +1,32 @@
+.next-challenge{
+    position: absolute;
+    transform: scale(0.1);
+    display: flex;
+    justify-content: flex-end;
+    top: 23vh;
+    right: -12rem;
+    cursor: pointer;
+}
+
+
+.prev-challenge{
+    position: absolute;
+    transform: scale(0.1);
+    display: flex;
+    justify-content: flex-end;
+    top: 23vh;
+    left: -12rem;
+    cursor: pointer;
+    
+}
+
+/* .main-container{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex : auto 3
+}
+
+.big-card{
+position: relative;
+} */

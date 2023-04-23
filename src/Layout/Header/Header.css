@@ -3,6 +3,7 @@
     height: 4rem;
     color: white;
     background-color: black;
+    display: flex;
     padding:1rem 2rem;
     position: fixed;
     top: 0;
@@ -13,3 +14,18 @@
     font-size: 1.5rem;
 
 }
+
+.home-btn{
+    position: inherit;
+    right: 0;
+    padding-top: 3px;
+    align-items: center;
+    padding-right: 2rem;
+    color: white;
+    font-weight:  bolder;
+}
+
+
+a:visited {
+    color: white;
+  }

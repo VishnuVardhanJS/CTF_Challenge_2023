@@ -5,7 +5,7 @@ import "./Layout.css"
 function Layout({children}) {
     return ( 
         <div>
-           <Header/>
+           <Header />
            {children}
            <Footer />
         </div>
