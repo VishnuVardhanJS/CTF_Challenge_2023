@@ -16,7 +16,7 @@ function Challenge2() {
   return (
     <div className="main-container">
       <div className="prev-challenge">
-        <Link to={"/Challenge1"}>
+        <Link to={"/ctf/Challenge1"}>
           <img className="img-style" src={Back}></img>
         </Link>
       </div>
@@ -30,7 +30,7 @@ function Challenge2() {
         />
       </div>
       <div className="next-challenge">
-        <Link to={"/Challenge3"}>
+        <Link to={"/ctf/Challenge3"}>
           <img className="img-style" src={Next}></img>
         </Link>
       </div>
