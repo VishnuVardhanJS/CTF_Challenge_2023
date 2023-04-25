@@ -17,7 +17,7 @@ function App() {
   return (
     <Layout >
       <Routes>
-        <Route path='/ctf/' element={<Main />} />
+        <Route path='/' element={<Main />} />
         <Route path='/Challenge1' element={<Challenge1 />} />
         <Route path='/Challenge2' element={<Challenge2 />} />
         <Route path='/Challenge3' element={<Challenge3 />} />
