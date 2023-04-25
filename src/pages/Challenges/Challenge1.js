@@ -3,7 +3,6 @@ import ChallengeCard from "../../components/ChallengeCard/ChallengeCard";
 import Next from "../../assets/Images/arrow_right.png";
 import { Link } from "react-router-dom";
 import "./Challenge.css";
-import Swal from "sweetalert2";
 
 function Challenge1() {
   const ChallengeInfo = {
