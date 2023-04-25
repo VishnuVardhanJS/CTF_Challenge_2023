@@ -9,7 +9,7 @@ function Challenge4() {
   const ChallengeInfo = {
     challengeId: "Challenge4",
     title: "One Line hTmL",
-    url: "/ctf/Challenge4",
+    url: "/Challenge4",
     desc: "No Bugs Everything working properly! ... don't worry",
     diff: "Very Easy",
   };
@@ -18,7 +18,7 @@ function Challenge4() {
       <div className="Flag{hAcKeR404}"></div>
       <div className="main-container">
         <div className="prev-challenge">
-          <Link to={"/ctf/Challenge3"}>
+          <Link to={"/Challenge3"}>
             <img className="img-style" src={Back}></img>
           </Link>
         </div>
@@ -30,7 +30,7 @@ function Challenge4() {
           challengeId={ChallengeInfo.challengeId}
         />
         <div className="next-challenge">
-          <Link to={"/ctf/Challenge5"}>
+          <Link to={"/Challenge5"}>
             <img className="img-style" src={Next}></img>
           </Link>
         </div>

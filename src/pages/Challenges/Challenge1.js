@@ -26,7 +26,7 @@ function Challenge1() {
         challengeId={ChallengeInfo.challengeId}
       />
       <div className="next-challenge">
-        <Link to={"/ctf/Challenge2"}>
+        <Link to={"/Challenge2"}>
           <img className="img-style" src={Next}></img>
         </Link>
       </div>

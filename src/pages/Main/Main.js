@@ -7,31 +7,31 @@ function Main() {
     const data=[
         {
             title:"Challenge 1",
-            url:"/ctf/Challenge1"
+            url:"Challenge1"
         },
         {
             title:"Challenge 2",
-            url:"/ctf/Challenge2"
+            url:"Challenge2"
         },
         {
             title:"Challenge 3",
-            url:"/ctf/Challenge3"
+            url:"Challenge3"
         },
         {
             title:"Challenge 4",
-            url:"/ctf/Challenge4"
+            url:"Challenge4"
         },
         {
             title:"Challenge 5",
-            url:"/ctf/Challenge5"
+            url:"Challenge5"
         },
         {
             title:"Challenge 6",
-            url:"/ctf/Challenge6"
+            url:"Challenge6"
         },
         {
             title:"Evaluate Scores",
-            url:"/ctf/Evaluate"
+            url:"Evaluate"
         },
     
     ]

@@ -17,15 +17,15 @@ function App() {
   return (
     <Layout >
       <Routes>
-        <Route path='/ctf' element={<Main />} />
-        <Route path='/ctf/Challenge1' element={<Challenge1 />} />
-        <Route path='/ctf/Challenge2' element={<Challenge2 />} />
-        <Route path='/ctf/Challenge3' element={<Challenge3 />} />
-        <Route path='/ctf/Challenge4' element={<Challenge4 />} />
-        <Route path='/ctf/Challenge5' element={<Challenge5 />} />
-        <Route path='/ctf/Challenge6' element={<Challenge6 />} />
-        <Route path='/ctf/clear' element={<Clear />} />
-        <Route path='/ctf/Evaluate' element={<Evaluate />} />
+        <Route path='/' element={<Main />} />
+        <Route path='/Challenge1' element={<Challenge1 />} />
+        <Route path='//Challenge2' element={<Challenge2 />} />
+        <Route path='/Challenge3' element={<Challenge3 />} />
+        <Route path='/Challenge4' element={<Challenge4 />} />
+        <Route path='/Challenge5' element={<Challenge5 />} />
+        <Route path='/Challenge6' element={<Challenge6 />} />
+        <Route path='/clear' element={<Clear />} />
+        <Route path='/Evaluate' element={<Evaluate />} />
       </Routes>
     </Layout>
 
