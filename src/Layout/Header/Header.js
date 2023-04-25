@@ -8,7 +8,7 @@ function Header() {
             <h1 className="header-text">Hindusthan CTF Contest</h1>
             <div className="home-btn">
 
-                <a href="/">Home</a>
+                <a href="/ctf">Home</a>
 
             </div>
         </div>
