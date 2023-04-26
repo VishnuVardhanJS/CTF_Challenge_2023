@@ -8,7 +8,7 @@ import Back from "../../assets/Images/arrow_left.png";
 function Challenge2() {
   const ChallengeInfo = {
     challengeId: "Challenge2",
-    title: "THALAVAR",
+    title: "THALAIVAR",
     url: "https://drive.google.com/file/d/1GhdwXa0NkQuclNA2yuk4pBbaOn84VlhO/view?usp=share_link",
     desc: "Find the Flageee.",
     diff: "Easy",
