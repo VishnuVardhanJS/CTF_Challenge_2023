@@ -6,7 +6,7 @@ function Card({title,url}) {
     return ( 
         <div className="home-card-container">
           <p className="card-text"> {title}</p>
-          <Link to={`/${url}`} 
+          <Link to={`${url}`} 
           className="card-container-btn"
           >View More</Link >
         </div>

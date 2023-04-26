@@ -10,6 +10,8 @@ import Challenge5 from './pages/Challenges/Challenge5'
 import Challenge6 from './pages/Challenges/Challenge6'
 import Clear from './pages/Misc/Clear';
 import Evaluate from './pages/Misc/Evaluate';
+import Menu from './pages/Main/Menu';
+import Code from './pages/Misc/Code';
 
 
 
@@ -17,7 +19,9 @@ function App() {
   return (
     <Layout >
       <Routes>
-        <Route path='/' element={<Main />} />
+        <Route path='/' element={<Menu />} />
+        <Route path='/Code' element={<Code />} />
+        <Route path='/ctf' element={<Main />} />
         <Route path='/Challenge1' element={<Challenge1 />} />
         <Route path='//Challenge2' element={<Challenge2 />} />
         <Route path='/Challenge3' element={<Challenge3 />} />
